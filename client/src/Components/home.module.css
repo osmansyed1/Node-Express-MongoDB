@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#home{
+    height: 80px;
+    width: 100%;
+    background-color:black;
+    display:flex ;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+#home>a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color: aliceblue;
+    text-shadow: 0px 0px 10px white;
+}
+
+#myform{
+    height: 87vh;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#myform>form{
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 20px white;
+    font-size: large;
+    border: none;
+    
+    
+}
+
+#myform>form>input{
+    margin-top:10px ;
+    margin-bottom: 10px;
+    font-size:15px;
+    border-radius:7px; 
+    border: none;
+    
+
+}
+#myform>form>button{
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px white;
+    border: none;
+    font-weight: bold;
+    font-size: medium;
+    
+}
+#myform>form>button:hover{
+   cursor: pointer;
+   transform: scale(1.1);
+   transition: 1s;
+}
+
+#userpage{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#userpage>div{
+    height: 250px;
+    width: 250xp;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    box-shadow: 0px 0px 20px white;
+    border-radius: 10px;
+}
+
+#userpage>div>table>tr>td,th{
+    padding: 23px;
+}
+
+#userpage>div>table>tr>td>a>button{
+    text-decoration: none;
+    height: 30px;
+    width: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 12px;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    box-shadow: 0px 0px 20px white;
+}
+
+#userpage>div>table>tr>td>a>button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+}
